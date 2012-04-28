@@ -1,0 +1,13 @@
+name: ChestBless
+version: 0.2
+author: Sabersamus
+database: true
+main: info.bytecraft.chestbless.ChestBless
+description: >
+    A simple, easy to use plugin that allows certain blocks to be protected
+commands:
+    bless:
+        description: >
+            Bless chests, levers, buttons, furnaces, dispensers, and other things to a player
+        usage: /<command> [player]
+        permission: bytecraft.bless
